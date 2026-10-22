@@ -1,0 +1,173 @@
+{
+  "organization": "MindfulAI Labs",
+  "environment": "Simulated GRC Practice Lab",
+  "source": "User-provided GRC Practice Lab Developer Mode and table data",
+  "note": "null means the field was not exposed in the provided source; it was intentionally not invented.",
+  "recordType": "controls",
+  "records": [
+    {
+      "id": "CTL-mu0tgvxq",
+      "name": "Perform documented bias and data quality validation before AI model approval",
+      "framework": "ISO 27001",
+      "ref": "A.5.12",
+      "effectiveness": "Effective",
+      "status": "Effective",
+      "frequency": "Quarterly",
+      "owner": "Data Science Team",
+      "description": "",
+      "rationale": "Rated Effective because AI training datasets are formally classified and reviewed for data quality, completeness, and potential bias before use. Quarterly validation provides documented evidence that training data remains appropriate for model development and reduces the likelihood of biased or unreliable model outputs.",
+      "frameworkRefs": [
+        {
+          "framework": "ISO 27001",
+          "ref": "A.5.12",
+          "relationshipType": "Equal",
+          "rationale": "Rated Effective because AI training datasets are formally classified and reviewed for data quality, completeness, and potential bias before use. Quarterly validation provides documented evidence that training data remains appropriate for model development and reduces the likelihood of biased or unreliable model outputs."
+        }
+      ]
+    },
+    {
+      "id": "CTL-mu1nugzu",
+      "name": "Restrict AI training data repositories to authorized personnel using role-based access",
+      "framework": "NIST CSF",
+      "ref": "PR.AA-05",
+      "effectiveness": "Partially Effective",
+      "status": "Partially Effective",
+      "frequency": "Quarterly",
+      "owner": "IAM Team",
+      "description": "",
+      "rationale": "Rated Partially Effective because role-based permissions restrict access to sensitive training data, but quarterly access reviews may identify excessive or outdated permissions that were not removed immediately after personnel or role changes.",
+      "frameworkRefs": [
+        {
+          "framework": "NIST CSF",
+          "ref": "PR.AA-05",
+          "relationshipType": "Equal",
+          "rationale": "Rated Partially Effective because role-based permissions restrict access to sensitive training data, but quarterly access reviews may identify excessive or outdated permissions that were not removed immediately after personnel or role changes."
+        }
+      ]
+    },
+    {
+      "id": "CTL-mu1nvfmw",
+      "name": "Require documented review and approval before production AI model changes are deployed",
+      "framework": "SOC 2",
+      "ref": "CC8.1",
+      "effectiveness": "Effective",
+      "status": "Effective",
+      "frequency": "Continuous",
+      "owner": "AI Engineering Team",
+      "description": "",
+      "rationale": "Rated Effective because production model changes require documented testing and approval before deployment. The control is embedded in the change process and provides evidence that unauthorized or insufficiently tested model modifications are prevented from reaching production.",
+      "frameworkRefs": [
+        {
+          "framework": "SOC 2",
+          "ref": "CC8.1",
+          "relationshipType": "Equal",
+          "rationale": "Rated Effective because production model changes require documented testing and approval before deployment. The control is embedded in the change process and provides evidence that unauthorized or insufficiently tested model modifications are prevented from reaching production."
+        }
+      ]
+    },
+    {
+      "id": null,
+      "name": "Enforce multi-factor authentication and least-privilege access for privileged AI platform accounts",
+      "framework": "CIS Controls",
+      "ref": "CIS 6",
+      "effectiveness": "Effective",
+      "status": "Effective",
+      "frequency": "Continuous",
+      "owner": "IAM Team",
+      "description": null,
+      "rationale": null,
+      "frameworkRefs": null
+    },
+    {
+      "id": null,
+      "name": "Perform vulnerability testing and remediate identified weaknesses in production AI APIs",
+      "framework": "NIST CSF",
+      "ref": "DE.CM-09",
+      "effectiveness": "Partially Effective",
+      "status": "Partially Effective",
+      "frequency": "Monthly",
+      "owner": "Application Security Team",
+      "description": null,
+      "rationale": null,
+      "frameworkRefs": null
+    },
+    {
+      "id": null,
+      "name": "Review AI datasets for unnecessary personal information and apply privacy safeguards before processing",
+      "framework": "GDPR",
+      "ref": "Art.5",
+      "effectiveness": "Partially Effective",
+      "status": "Partially Effective",
+      "frequency": "Quarterly",
+      "owner": "Privacy and Compliance Team",
+      "description": null,
+      "rationale": null,
+      "frameworkRefs": null
+    },
+    {
+      "id": null,
+      "name": "Maintain tested backup and recovery procedures for critical production AI systems",
+      "framework": "ISO 27001",
+      "ref": "A.5.30",
+      "effectiveness": "Effective",
+      "status": "Effective",
+      "frequency": "Quarterly",
+      "owner": "Infrastructure Operations Team",
+      "description": null,
+      "rationale": null,
+      "frameworkRefs": null
+    },
+    {
+      "id": null,
+      "name": "Centralize and review security logs for suspicious activity affecting production AI systems",
+      "framework": "CIS Controls",
+      "ref": "CIS 8",
+      "effectiveness": "Partially Effective",
+      "status": "Partially Effective",
+      "frequency": "Continuous",
+      "owner": "Security Operations Team",
+      "description": null,
+      "rationale": null,
+      "frameworkRefs": null
+    },
+    {
+      "id": null,
+      "name": "Perform documented compliance assessments of high-impact AI systems against applicable requirements",
+      "framework": "ISO 27001",
+      "ref": "A.5.31",
+      "effectiveness": "Not Tested",
+      "status": "Not Tested",
+      "frequency": "Annual",
+      "owner": "GRC Team",
+      "description": null,
+      "rationale": null,
+      "frameworkRefs": null
+    },
+    {
+      "id": null,
+      "name": "Assess security and privacy risks before approving third-party AI vendors and services",
+      "framework": "SOC 2",
+      "ref": "CC9.2",
+      "effectiveness": "Ineffective",
+      "status": "Ineffective",
+      "frequency": "Continuous",
+      "owner": "Third-Party Risk Management Team",
+      "description": null,
+      "rationale": null,
+      "frameworkRefs": null
+    },
+    {
+      "id": null,
+      "name": "Require independent peer review of AI model testing results before production approval",
+      "framework": "ISO 27001",
+      "ref": "A.5.35",
+      "effectiveness": "Not Tested",
+      "status": "Not Tested",
+      "frequency": "Quarterly",
+      "owner": "AI Quality Assurance Team",
+      "description": null,
+      "rationale": null,
+      "frameworkRefs": null
+    }
+  ]
+}

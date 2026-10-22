@@ -1,0 +1,90 @@
+{
+  "organization": "MindfulAI Labs",
+  "recordType": "Key Risk Indicators",
+  "kris": [
+    {
+      "id": "KRI-001",
+      "name": "Critical AI Validation Exceptions",
+      "category": "Patient Safety",
+      "indicatorType": "Leading",
+      "currentValue": 1,
+      "unit": "count",
+      "direction": "Higher is worse",
+      "amberThreshold": 2,
+      "redThreshold": 4,
+      "frequency": "Weekly",
+      "trend": "Stable",
+      "owner": "Clinical AI & ML Team"
+    },
+    {
+      "id": "KRI-002",
+      "name": "AI-Related Patient Safety Incidents",
+      "category": "Patient Safety",
+      "indicatorType": "Lagging",
+      "currentValue": 0,
+      "unit": "count per quarter",
+      "direction": "Higher is worse",
+      "amberThreshold": 1,
+      "redThreshold": 2,
+      "frequency": "Monthly",
+      "trend": "Stable",
+      "owner": "Clinical AI & ML Team"
+    },
+    {
+      "id": "KRI-003",
+      "name": "Critical Vulnerabilities Past Remediation SLA",
+      "category": "Cybersecurity",
+      "indicatorType": "Leading",
+      "currentValue": 4,
+      "unit": "count",
+      "direction": "Higher is worse",
+      "amberThreshold": 5,
+      "redThreshold": 6,
+      "frequency": "Weekly",
+      "trend": "Increasing",
+      "owner": "Security Operations Team"
+    },
+    {
+      "id": "KRI-004",
+      "name": "AI Datasets Pending Privacy Review",
+      "category": "Compliance",
+      "indicatorType": "Leading",
+      "currentValue": 4,
+      "unit": "count",
+      "direction": "Higher is worse",
+      "amberThreshold": 3,
+      "redThreshold": 5,
+      "frequency": "Monthly",
+      "trend": "Increasing",
+      "owner": "Privacy and Compliance Team"
+    },
+    {
+      "id": "KRI-005",
+      "name": "Unplanned Clinical AI Service Outages",
+      "category": "Operational",
+      "indicatorType": "Lagging",
+      "currentValue": 1,
+      "unit": "count per month",
+      "direction": "Higher is worse",
+      "amberThreshold": 2,
+      "redThreshold": 3,
+      "frequency": "Monthly",
+      "trend": "Stable",
+      "owner": "IT Operations Team"
+    },
+    {
+      "id": "KRI-006",
+      "name": "Critical Vendors with Overdue Risk Assessments",
+      "category": "Third-Party",
+      "indicatorType": "Leading",
+      "currentValue": 3,
+      "unit": "count",
+      "direction": "Higher is worse",
+      "amberThreshold": 4,
+      "redThreshold": 6,
+      "frequency": "Monthly",
+      "trend": "Decreasing",
+      "owner": "Third-Party Risk Management Team"
+    }
+  ]
+}

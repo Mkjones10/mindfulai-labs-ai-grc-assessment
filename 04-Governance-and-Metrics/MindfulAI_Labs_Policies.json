@@ -1,0 +1,48 @@
+{
+  "organization": "MindfulAI Labs",
+  "recordType": "Policies",
+  "policies": [
+    {
+      "id": "POL-001",
+      "title": "AI Model Risk Management and Validation Policy",
+      "status": "Approved",
+      "owner": "AI Governance Team",
+      "reviewDate": "2027-09-26"
+    },
+    {
+      "id": "POL-002",
+      "title": "AI Data Governance and Quality Policy",
+      "status": "Approved",
+      "owner": "Data Governance Team",
+      "reviewDate": "2027-09-26"
+    },
+    {
+      "id": "POL-003",
+      "title": "AI Access Control and Privileged Access Policy",
+      "status": "Under Review",
+      "owner": "Information Security Team",
+      "reviewDate": "2027-03-31"
+    },
+    {
+      "id": "POL-004",
+      "title": "AI Change Management and Model Deployment Policy",
+      "status": "Approved",
+      "owner": "Machine Learning Engineering",
+      "reviewDate": "2027-06-30"
+    },
+    {
+      "id": "POL-005",
+      "title": "AI Incident Response and Model Monitoring Policy",
+      "status": "Draft",
+      "owner": "Security Operations Team",
+      "reviewDate": "2027-01-31"
+    },
+    {
+      "id": "POL-006",
+      "title": "Responsible AI and Human Oversight Policy",
+      "status": "Under Review",
+      "owner": "AI Governance Team",
+      "reviewDate": "2027-04-30"
+    }
+  ]
+}

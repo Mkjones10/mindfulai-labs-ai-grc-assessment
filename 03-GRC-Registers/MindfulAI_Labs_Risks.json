@@ -1,0 +1,130 @@
+{
+  "organization": "MindfulAI Labs",
+  "environment": "Simulated GRC Practice Lab",
+  "source": "User-provided GRC Practice Lab Developer Mode and table data",
+  "note": "null means the field was not exposed in the provided source; it was intentionally not invented.",
+  "recordType": "risks",
+  "records": [
+    {
+      "id": "RSK-mu0sxjrj",
+      "title": "Training data bias causes inaccurate clinical AI recommendations",
+      "category": "Data Protection",
+      "status": "Open",
+      "likelihood": 3,
+      "impact": 5,
+      "owner": "Clinical AI & Machine Learning Team",
+      "description": "",
+      "rationale": "Biased or unrepresentative training data could cause the clinical AI model to produce inaccurate recommendations for certain patient populations. The likelihood is possible because bias may be introduced during data collection or model training, while the impact is severe because incorrect clinical recommendations could affect patient care."
+    },
+    {
+      "id": "RSK-mu0t1uva",
+      "title": "Unauthorized user exploits inadequate data access restrictions causing sensitive data exposure to Financial Risk Training Data Repository",
+      "category": "Data Protection",
+      "status": "Open",
+      "likelihood": 3,
+      "impact": 4,
+      "owner": "Data Science Team",
+      "description": "",
+      "rationale": "Training repositories may contain sensitive financial or customer information accessible to model-development personnel. Inadequate access restrictions could expose this information. The likelihood is possible, while the impact is major because exposure could create privacy, regulatory, and reputational consequences."
+    },
+    {
+      "id": "RSK-mu0t2oau",
+      "title": "Unauthorized developer exploits excessive privileges causing unapproved model changes to AI Model Training Server",
+      "category": "Access Control",
+      "status": "In Progress",
+      "likelihood": 3,
+      "impact": 4,
+      "owner": "Machine Learning Engineering",
+      "description": "",
+      "rationale": "Developers with excessive privileges could alter model configurations, training parameters, or code without appropriate authorization. The likelihood is possible in a collaborative development environment, while the impact is major because unauthorized changes could affect model integrity and downstream production decisions."
+    },
+    {
+      "id": null,
+      "title": "Cloud misconfiguration exploits weak configuration governance causing unauthorized resource exposure to AI Development Cloud Environment",
+      "category": "Application Security",
+      "status": "Open",
+      "likelihood": 4,
+      "impact": 3,
+      "owner": "Cloud Engineering",
+      "description": null,
+      "rationale": null
+    },
+    {
+      "id": null,
+      "title": "Incomplete validation exploits insufficient testing coverage causing defective models to advance from Pre-Production AI Validation Environment",
+      "category": "Compliance",
+      "status": "In Progress",
+      "likelihood": 3,
+      "impact": 4,
+      "owner": "Model Validation Team",
+      "description": null,
+      "rationale": null
+    },
+    {
+      "id": null,
+      "title": "External attacker exploits weak network filtering causing unauthorized AI infrastructure access through AI Network Security Gateway",
+      "category": "Access Control",
+      "status": "In Progress",
+      "likelihood": 2,
+      "impact": 5,
+      "owner": "Network Security Team",
+      "description": null,
+      "rationale": null
+    },
+    {
+      "id": null,
+      "title": "Infrastructure outage exploits inadequate recovery testing causing prolonged service disruption to AI Disaster Recovery Cloud Environment",
+      "category": "Availability",
+      "status": "Open",
+      "likelihood": 2,
+      "impact": 5,
+      "owner": "Cloud Operations Team",
+      "description": null,
+      "rationale": null
+    },
+    {
+      "id": null,
+      "title": "Unauthorized user exploits inadequate backup access controls causing sensitive data exposure to Clinical AI Backup Repository",
+      "category": "Data Protection",
+      "status": "Open",
+      "likelihood": 2,
+      "impact": 4,
+      "owner": "Data Protection Team",
+      "description": null,
+      "rationale": null
+    },
+    {
+      "id": null,
+      "title": "Phishing attacker exploits user error causing unauthorized governance data access to AI Governance Analyst Workstation",
+      "category": "Human Error",
+      "status": "Closed",
+      "likelihood": 3,
+      "impact": 2,
+      "owner": "AI Governance Team",
+      "description": null,
+      "rationale": null
+    },
+    {
+      "id": null,
+      "title": "Tester exploits excessive system privileges causing unauthorized validation changes to Pre-Production Model Validation Server",
+      "category": "Access Control",
+      "status": "Closed",
+      "likelihood": 2,
+      "impact": 3,
+      "owner": "Model Validation Team",
+      "description": null,
+      "rationale": null
+    },
+    {
+      "id": null,
+      "title": "Analyst error exploits inadequate test review procedures causing inaccurate validation results to Model Testing Workstation",
+      "category": "Human Error",
+      "status": "Closed",
+      "likelihood": 3,
+      "impact": 2,
+      "owner": "AI Quality Assurance Team",
+      "description": null,
+      "rationale": null
+    }
+  ]
+}

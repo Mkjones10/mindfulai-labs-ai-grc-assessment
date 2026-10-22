@@ -1,0 +1,66 @@
+{
+  "organization": "MindfulAI Labs",
+  "recordType": "Risk Appetite Statements",
+  "riskAppetiteStatements": [
+    {
+      "id": "RAS-001",
+      "riskCategory": "AI Governance",
+      "appetiteLevel": "Cautious",
+      "toleranceMax": 8,
+      "toleranceScale": 25,
+      "appetiteStatement": "MindfulAI Labs maintains a cautious appetite for AI governance risk while pursuing responsible innovation. AI systems must operate within established governance, validation, accountability, and oversight requirements, with residual risk scores above 8 requiring escalation, additional treatment, or formal risk acceptance.",
+      "boardApproved": true,
+      "reviewDate": "2027-09-26"
+    },
+    {
+      "id": "RAS-002",
+      "riskCategory": "Cybersecurity",
+      "appetiteLevel": "Adverse",
+      "toleranceMax": 6,
+      "toleranceScale": 25,
+      "appetiteStatement": "MindfulAI Labs maintains an adverse appetite for cybersecurity risk that could compromise critical AI systems, sensitive information, or supporting technology. Security risks must be actively identified and treated, with residual risk scores above 6 requiring escalation, additional treatment, or formal risk acceptance.",
+      "boardApproved": true,
+      "reviewDate": "2027-06-30"
+    },
+    {
+      "id": "RAS-003",
+      "riskCategory": "Patient Safety",
+      "appetiteLevel": "Adverse",
+      "toleranceMax": 4,
+      "toleranceScale": 25,
+      "appetiteStatement": "MindfulAI Labs maintains an adverse appetite for risks that could cause patient harm or materially affect the safety of clinical AI recommendations. Clinical AI systems require appropriate validation and human oversight, with residual risk scores above 4 requiring immediate escalation, additional treatment, or formal risk acceptance.",
+      "boardApproved": true,
+      "reviewDate": "2027-03-31"
+    },
+    {
+      "id": "RAS-004",
+      "riskCategory": "Data Privacy",
+      "appetiteLevel": "Adverse",
+      "toleranceMax": 5,
+      "toleranceScale": 25,
+      "appetiteStatement": "MindfulAI Labs maintains an adverse appetite for data privacy risks involving unauthorized, excessive, or inappropriate processing of personal and sensitive information. Personal data used by AI systems must be limited to necessary purposes and protected throughout its lifecycle, with residual risk scores above 5 requiring escalation, additional treatment, or formal risk acceptance.",
+      "boardApproved": true,
+      "reviewDate": "2027-02-28"
+    },
+    {
+      "id": "RAS-005",
+      "riskCategory": "Clinical Availability",
+      "appetiteLevel": "Cautious",
+      "toleranceMax": 7,
+      "toleranceScale": 25,
+      "appetiteStatement": "MindfulAI Labs maintains a cautious appetite for availability risk affecting clinical AI services and supporting infrastructure. Service disruptions must be monitored and managed to preserve continuity of critical clinical operations, with residual risk scores above 7 requiring escalation, additional treatment, or formal risk acceptance.",
+      "boardApproved": true,
+      "reviewDate": "2026-12-31"
+    },
+    {
+      "id": "RAS-006",
+      "riskCategory": "Third-Party",
+      "appetiteLevel": "Moderate",
+      "toleranceMax": 10,
+      "toleranceScale": 25,
+      "appetiteStatement": "MindfulAI Labs maintains a moderate appetite for third-party risk where external services provide meaningful operational or strategic value. Critical vendors must undergo appropriate due diligence, security review, and ongoing monitoring, with residual risk scores above 10 requiring escalation, additional treatment, or formal risk acceptance.",
+      "boardApproved": true,
+      "reviewDate": "2027-04-30"
+    }
+  ]
+}
